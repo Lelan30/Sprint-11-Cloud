@@ -1,0 +1,10 @@
+# Pickle: a module in python, allows you to 'dump' and 'load' arbitrary(in memory)
+# python objects to strings or binary representations
+
+# To use pickle; import dumps(dumps to a string) and loads(loads from a string)
+
+import pickle
+d = {'An arbitrary': 'Python Object'}
+d_pickled = pickle.dumps(d)
+
+d_unpickled = pickle.loads(d_pickled)

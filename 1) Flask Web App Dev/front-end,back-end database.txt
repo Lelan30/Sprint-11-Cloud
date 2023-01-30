@@ -1,0 +1,15 @@
+# Front-End, Back-End Database
+
+# Web applications are built on a relatively thick stack - 
+from the client (user with their browser) over a network to 
+the back-end (server) and database (for data persistence).
+
+# Front End: a wep-page styles with CSS (Bootstrap), 
+listing TODO items 
+
+# Back End: a Flask application that recieves request for returning, 
+creating, or completing/deleting TODOS, returns response appropriate 
+to front end user
+
+# Database: a PostGreSQL instance that stores that actual TODO data, 
+which back end users retrieve from
